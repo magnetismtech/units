@@ -30,7 +30,7 @@ class UnitServiceProvider extends ServiceProvider
 
         if ($this->app->runningInConsole()) {
             // Export the migration
-            if (!class_exists('CreatePostsTable')) {
+            if (!class_exists('CreateUnitsTable')) {
                 $this->publishes([
                     __DIR__ . '\database\migrations\create_units_table.php.stub' => database_path('migrations/' . date('Y_m_d_His', time()) . '_create_units_table.php'),
                     // you can add any number of migrations here

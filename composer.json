@@ -10,5 +10,17 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Magnetism\\Units\\WarehouseServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Magnetism\\Units\\": "src/"
+        }
+    }
 }
