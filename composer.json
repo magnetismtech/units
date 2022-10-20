@@ -1,0 +1,14 @@
+{
+    "name": "magnetism/units",
+    "description": "Measurement Units.",
+    "type": "n",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "magnetismtech",
+            "email": "resources@magnetismtech.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
