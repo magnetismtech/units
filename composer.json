@@ -14,7 +14,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Magnetism\\Units\\WarehouseServiceProvider"
+                "Magnetism\\Units\\UnitServiceProvider"
             ]
         }
     },
